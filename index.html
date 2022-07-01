@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header-main">
+        <div class="title">
+            <h1>SOCIALFREE</h1>
+        </div>
+        <div class="header__msg">
+            <h2>Welcome to our messaging site!</h2>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section class="user-section">
+
+            <div class="user__title">
+                <div class="online-status"></div>
+                <h1>Users Online</h1>
+            </div>
+
+            <div class="userWrapper"></div>
+
+        </section>
+
+        <section class="message-section">
+
+            <div class="add-new-message">
+
+                <input type="text" class="input-sender" id="input-sender" placeholder="Who are you?">
+                <input type="text" class="input-text" id="input-text" placeholder="Write your message here...">
+                <button class="add-new-message-btn">Send message</button>
+              
+            </div>
+
+            <div class="message-box">
+
+                <div class="filter-box"> <input type="text" class="filter-input" id="filter-input" placeholder="Filter by..."> </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./script.js" type="module"></script>
+    <script src="./utils.js" type="module"></script>
+    <script src="./api.js" type="module"></script>
+</body>
+</html>
